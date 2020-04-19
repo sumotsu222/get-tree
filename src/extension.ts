@@ -45,7 +45,7 @@ export function activate(context: vscode.ExtensionContext) {
 			cur_selection = new vscode.Selection(startPos, endPos);
 		}
 
-		// e.g C:\web\vue\my_vue\01_input
+		// e.g C:\tmp
 		let text = doc.getText(cur_selection);
 
 		// get file and folder path
