@@ -1,6 +1,6 @@
 # get-tree README
 
-![get-tree](https://github.com/sumotsu222/get-tree/try.gif)
+![get-tree](https://github.com/sumotsu222/get-tree/blob/master/try.gif)
 
 The folder structure of the sample is as follow.
 
