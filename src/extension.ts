@@ -25,7 +25,7 @@ const readSubDirSync = (folderPath : string) => {
 
 export function activate(context: vscode.ExtensionContext) {
 
-	let disposable = vscode.commands.registerCommand('extension.helloWorld', () => {
+	let disposable = vscode.commands.registerCommand('extension.get-tree', () => {
 
 		// get editor
 		let editor = vscode.window.activeTextEditor; 
@@ -37,10 +37,6 @@ export function activate(context: vscode.ExtensionContext) {
 		let doc = editor.document;
 		// get selection
 		let cur_selection = editor.selection;
-
-		// debug
-		console.log(doc);
-		console.log(cur_selection);
 
 		// if select area is empty, selection is set all area
 		if(editor.selection.isEmpty){         
