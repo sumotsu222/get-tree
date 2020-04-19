@@ -1,4 +1,5 @@
 {
+	"publisher": "sumotsu222",
 	"name": "get-tree",
 	"displayName": "get-tree",
 	"description": "get file and folder path",
@@ -41,5 +42,12 @@
 		"mocha": "^7.0.1",
 		"typescript": "^3.7.5",
 		"vscode-test": "^1.3.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sumotsu222/get-tree"
+	  },
+	 "bugs": {
+		"url": "https://github.com/sumotsu222/get-tree/issues"
 	}
 }
